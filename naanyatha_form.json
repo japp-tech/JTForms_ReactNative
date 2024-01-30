@@ -1,0 +1,409 @@
+{
+  "form": {
+    "name": "Naanyatha Form",
+    "username": "",
+    "sections": [
+      {
+          "name": "Naanyatha Form",
+          "code": "naanyathaForm",
+          "type": "section",
+          "properties":
+          {
+              "hideHeader":"yes"
+          },
+          "value": [
+              
+          ],
+        "childList": [
+
+          {
+            "name": "Date Of Inspection",
+            "code": "dateofinspection",
+            "objKey":"dateOfInspection",
+            "type": "DateTime",
+            "minDate": "15",
+            "maxDate": "0",
+            "errorCode": "ERR001",
+            "value": [
+
+            ]
+          },
+          {
+            "name": "Circle",
+            "code": "circle",
+            "objKey":"circle",
+            "type": "DropDown",
+            "dropDownOptionsKey":"circleList",
+            "errorCode": "ERR001",
+            "value": [
+            ]
+          },
+          {
+            "name": "Division",
+            "code": "division",
+            "objKey":"division",
+            "type": "DropDown",
+            "dropDownOptionsKey":"divisionList",
+            "errorCode": "ERR001",
+            "value": [
+            ]
+          },
+          {
+            "name": "Sub Division",
+            "code": "subdivision",
+            "objKey":"subDivision",
+            "type": "DropDown",
+            "dropDownOptionsKey":"subDivisionList",
+            "errorCode": "ERR001",
+            "value": [
+            ]
+          },
+
+          {
+            "name": "Section",
+            "code": "section",
+            "objKey":"section",
+            "type": "DropDown",
+            "dropDownOptionsKey":"sectionList",
+            "errorCode": "ERR001",
+            "value": [
+            ]
+          },
+
+          {
+            "name": "Type of Vehicle",
+            "code": "typeofvehicle",
+            "objKey":"typeOfVehicle",
+            "type": "RadioGroup",
+            "orientation": "H",
+            "errorCode": "ERR001",
+            "options": [
+              {
+                "type": "Big",
+                "typeId": "1"
+              },
+              {
+                "type": "Small",
+                "typeId": "2"
+              }
+            ],
+            "value": [
+            ]
+          },
+
+          {
+            "name": "Vehicle Registration Number",
+            "subTitle": "(Enter vehicle number which has been operated on field and inspected)",
+            "label": "Your answer",
+            "code": "vehicleregistrationnumber",
+            "objKey":"vehcleRegNum",
+            "type": "DropDown",
+            "dropDownOptionsKey":"vehicleList",
+            "errorCode": "ERR001",
+            "value": [
+            ]
+          },
+
+          {
+            "name": "If above Vehicle is a temporary replacement, please enter the REGULAR VEHICLE NUMBER here(If not,ignore)",
+            "subTitle": "(Enter vehicle number which was agreed upon while entering into agreement) - (Do not enter spaces in the registration number)",
+            "label": "Your answer",
+            "code": "vehicletempreplacement",
+            "objKey":"vehcleTempReplacement",
+            "type": "TitleInfoTextBox",
+            "errorCode": "ERR001",
+            "value": [
+            ]
+          },
+
+          {
+            "name": "Type of complaint being attended - MCC/Public complaint/Preventive Maintenance",
+            "code": "typeofcomplaint",
+            "objKey":"typeOfComplaint",
+            "type": "RadioGroup",
+            "orientation": "V",
+            "errorCode": "ERR001",
+            "options": [
+              {
+                "type": "MCC Complaint",
+                "typeId": "1"
+              },
+              {
+                "type": "Public/Corporator/MLA Complaint",
+                "typeId": "2"
+              },
+              {
+                "type": "Preventive Maintenance",
+                "typeId": "3"
+              }
+            ],
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "If MCC complaint, enter token number",
+            "label": "Your answer",
+            "code": "mcccomplainttoken",
+            "objKey":"mccCmplntToken",
+            "type": "TextBox",
+            "errorCode": "ERR001",
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "Location of Work",
+            "label": "Your answer",
+            "code": "locofwork",
+            "objKey":"locOfWrk",
+            "type": "TextBox",
+            "errorCode": "ERR001",
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "Is the complaint resolved",
+            "code": "iscomplaintresolved",
+            "objKey":"isComplaintResolved",
+            "type": "RadioGroup",
+            "orientation": "H",
+            "errorCode": "ERR001",
+            "options": [
+              {
+                "type": "Yes",
+                "typeId": "1"
+              },
+              {
+                "type": "No",
+                "typeId": "2"
+              }
+            ],
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "Tentative Length of Cleaning done",
+            "subTitle": "Enter no. of Running meters of only the work which has been inspected by DGM.",
+            "label": "Your answer",
+            "code": "tentativelengthofcleaningdone",
+            "objKey":"tentativeLngthOfClngDone",
+            "type": "TitleInfoTextBox",
+            "keyBoardType": "Decimal",
+            "errorCode": "ERR001",
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "No. of manholes opened & cleaned",
+            "subTitle": "Enter no. of Manholes opened & cleaned in the work which has been inspected by DGM.",
+            "label": "Your answer",
+            "code": "noofmanholesopenedandcleaned",
+            "objKey":"noOfManholesOpenedCleaned",
+            "type": "TitleInfoTextBox",
+            "keyBoardType": "Number",
+            "errorCode": "ERR001",
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "No. of Labour engaged",
+            "subTitle": "Enter no. of men engaged in the work which has been inspected by DGM.",
+            "label": "Your answer",
+            "code": "nooflabourengaged",
+            "objKey":"noOfLabourEngaged",
+            "type": "TitleInfoTextBox",
+            "keyBoardType": "Number",
+            "errorCode": "ERR001",
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "Is SILT removed from manhole CARTED away from the site immediately?",
+            "code": "issiltmanholecarted",
+            "objKey":"isSiltManholeCarted",
+            "type": "RadioGroup",
+            "orientation": "V",
+            "errorCode": "ERR001",
+            "options": [
+              {
+                "type": "Carted Away from the site immediately",
+                "typeId": "1"
+              },
+              {
+                "type": "NOT carted Away from the site immediately",
+                "typeId": "2"
+              },
+              {
+                "type": "Silt NOT Generated from Manhole",
+                "typeId": "3"
+              }
+            ],
+            "value": [
+
+            ]
+          },
+
+          {
+            "name": "Upload photographs of the inspections of selected Vehicle inspections",
+            "code": "uploadvehicleinspections",
+            "objKey":"uploadVehicleInspections",
+            "type": "UploadFile",
+            "errorCode": "ERR001",
+            "btnName": "Add file",
+            "value": [
+
+            ]
+          }
+
+        ]
+      }
+    ]
+  },
+  "dropdownDef": {
+      "circleList": {
+          "isDynamic":"no",
+          "options": [
+              {
+                  "type": "Circle 1",
+                  "typeId": "1"
+              },
+              {
+                  "type": "Circle 2",
+                  "typeId": "2"
+              },
+              {
+                  "type": "Circle 3",
+                  "typeId": "3"
+              },
+              {
+                  "type": "Circle 4",
+                  "typeId": "4"
+              }
+          ]
+      },
+      "divisionList": {
+          "isDynamic":"no",
+          "options": [
+              {
+                  "type": "1",
+                  "typeId": "1"
+              },
+              {
+                  "type": "2A",
+                  "typeId": "2"
+              },
+              {
+                  "type": "2B",
+                  "typeId": "3"
+              },
+              {
+                  "type": "3",
+                  "typeId": "4"
+              }
+          ]
+      },
+      "subDivisionList": {
+          "isDynamic":"no",
+          "options": [
+              {
+                  "type": "10A",
+                  "typeId": "1"
+              },
+              {
+                  "type": "2A",
+                  "typeId": "2"
+              },
+              {
+                  "type": "2B",
+                  "typeId": "3"
+              },
+              {
+                  "type": "3",
+                  "typeId": "4"
+              }
+          ]
+      },
+      "sectionList": {
+          "isDynamic":"no",
+          "options": [
+              {
+                  "type": "Saroornagar",
+                  "typeId": "1"
+              },
+              {
+                  "type": "Alkapuri",
+                  "typeId": "2"
+              },
+              {
+                  "type": "Dilsukhnagar",
+                  "typeId": "3"
+              },
+              {
+                  "type": "Kothapet",
+                  "typeId": "4"
+              }
+          ]
+      },
+      "vehicleList" : {
+          "isDynamic":"yes",
+          "options": [
+          ],
+          "serviceParams" : [
+              {
+                  "name":"circle",
+                  "value":""
+              },
+              {
+                  "name":"division",
+                  "value":""
+              },
+              {
+                  "name":"subDivision",
+                  "value":""
+              },
+              {
+                  "name":"section",
+                  "value":""
+              },
+              {
+                  "name":"vehcleRegNum",
+                  "value":""
+              },
+              {
+                  "name":"vehicleType",
+                  "value":""
+              }
+          ]
+      }
+  },
+  "validations": [
+    {
+      "type": "ERR001",
+      "formula": "str.length <= 0",
+      "msgCode": "ERR_MSG01",
+      "msg": "Please enter ${label}",
+      "errorSeverity": 5
+    },
+    {
+      "type": "ERR002",
+      "formula": "str.length <= 0",
+      "msgCode": "ERR_MSG02",
+      "msg": "Please enter ${label}",
+      "errorSeverity": 3
+    }
+  ]
+}
+

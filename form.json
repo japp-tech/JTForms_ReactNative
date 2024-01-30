@@ -1,0 +1,381 @@
+{
+    "form": {
+        "name": "",
+        "username": "",
+        "sections": [
+            {
+                "name": "SECTION 1",
+                "code": "section_1",
+                "type": "section",
+                "properties":
+                    {
+                      "showAssign":"no",
+                       "assign": {
+                           "dropdownName":"Assign",
+                           "editPermission":"admin",
+                           "value":""
+                         },
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "value": [
+                    
+                ],
+                "childList": [
+                    {
+                        "name": "DATE OF FILE",
+                        "code": "dateoffile",
+                        "objKey":"dateOfFile",
+                        "type": "DateTime",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "CLIENT NAME",
+                        "code": "clientname",
+                        "objKey":"clientName",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "BRANCH",
+                        "code": "branch",
+                        "objKey":"branch",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "DATE AND TIME OF VISIT",
+                        "code": "dateandtimeofVisit",
+                        "objKey":"visitDateTime",
+                        "type": "DateTime",
+                        "value": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SECTION 2",
+                "code": "section_2",
+                "type": "section",
+                "properties":
+                    {
+                      "showAssign":"no",
+                       "assign": {
+                           "dropdownName":"Assign",
+                           "editPermission":"admin",
+                           "value":""
+                         },
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "value": [
+                    
+                ],
+                "childList": [
+                    {
+                        "name": "NAME OF APPLICANT",
+                        "code": "Nameofapplicant",
+                        "objKey":"applicantName",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "NAME OF CO-APPLICANT",
+                        "code": "Nameofcoapplicant",
+                        "objKey":"coApplName",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "RESIDENCE ADDRESS",
+                        "code": "ResidenceAddress",
+                        "objKey":"residenceAddress",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "NAME OF THE ORGANIZATION(APP)",
+                        "code": "nameoftheorganization",
+                        "objKey":"organization",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "CO-APPLICANT EMPLOYEMENT DETAILS",
+                        "code": "coapplicantemployementdetails",
+                        "objKey":"coApplEmployment",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "OFFICE ADDRESS(APP)",
+                        "code": "officeaddress",
+                        "objKey":"officeAddress",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "CO-APPLICANT ADDRESS DETAILS",
+                        "code": "coapplicantaddressdetails",
+                        "objKey":"coApplAddress",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "MOBILE NUMBER",
+                        "code": "mobilenumber",
+                        "objKey":"phoneNo",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "RESIDENCE REMARKS",
+                        "code": "residenceremarks",
+                        "objKey":"residenceRemarks",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SECTION 3",
+                "code": "section_3",
+                "type": "section",
+                "properties":
+                    {
+                      "showAssign":"no",
+                       "assign": {
+                           "dropdownName":"Assign",
+                           "editPermission":"admin",
+                           "value":""
+                         },
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "value": [
+                    
+                ],
+                "childList": [
+                    {
+                        "name": "DATE OF SUBMISSION",
+                        "code": "dateofsubmission",
+                        "objKey":"submisDate1",
+                        "type": "DateTime",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "STATUS",
+                        "code": "status",
+                        "objKey":"status1",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "VERIFICATION DONE",
+                        "code": "verificationdone",
+                        "objKey":"verificationDone1",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SECTION 4",
+                "code": "section_4",
+                "type": "section",
+                "properties":
+                    {
+                      "showAssign":"no",
+                       "assign": {
+                           "dropdownName":"Assign",
+                           "editPermission":"admin",
+                           "value":""
+                         },
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "value": [
+                    
+                ],
+                "properties":
+                    {
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "childList": [
+                    {
+                        "name": "OFFICE REMARKS APP",
+                        "code": "officeremarksapp",
+                        "objKey":"officeRemarks",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "OFFICE REMARKS CO-APP",
+                        "code": "officeremarkscoapp",
+                        "objKey":"coApplOfcRemarks",
+                        "type": "TextArea",
+                        "value": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SECTION 5",
+                "code": "section_5",
+                "type": "section",
+                "properties":
+                    {
+                      "showAssign":"no",
+                       "assign": {
+                           "dropdownName":"Assign",
+                           "editPermission":"admin",
+                           "value":""
+                         },
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "value": [
+                    
+                ],
+                "childList": [
+                    {
+                        "name": "DATE OF SUBMISSION",
+                        "code": "dateofsubmissionform",
+                        "objKey":"submisDate2",
+                        "type": "DateTime",
+                        
+                        "properties":
+                            {
+                                "showAMPM":"yes"
+                            },
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "STATUS",
+                        "code": "statusform",
+                        "objKey":"status2",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "VERIFICATION DONE BY",
+                        "code": "verificationdoneby",
+                        "objKey":"verificationDone2",
+                        "type": "TextBox",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "DATE AND TIME OF VISIT FORM",
+                        "code": "dateandtimeofvisitform",
+                        "objKey":"visitDateTime1",
+                        "type": "DateTime",
+                        "properties":
+                            {
+                            "show24hours":"yes"
+                            },
+                        "value": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SECTION 6",
+                "code": "section_6",
+                "type": "section",
+                "properties":
+                    {
+                      "showAssign":"no",
+                       "assign": {
+                           "dropdownName":"Assign",
+                           "editPermission":"admin",
+                           "value":""
+                         },
+                       "branding":"section",
+                       "showLeadingIcon":"yes",
+                       "showTrailingIcon":"No"
+                    },
+                "value": [
+                    
+                ],
+                "childList": [
+                    {
+                        "name": "UPLOAD PHOTO",
+                        "code": "uploadImg",
+                        "objKey":"attachments",
+                        "type": "Image",
+                        "value": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "ADD SIGNATURE",
+                        "code": "signature",
+                        "objKey":"signature",
+                        "type": "SIGN",
+                        "value": [
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "dropdownDef":{
+        "empList":{
+            "isDynamic":"no",
+            "options": [
+                "emp1",
+                "emp2"
+            ]
+        }
+    }
+}
+
